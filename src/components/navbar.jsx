@@ -2,6 +2,7 @@ import React, { memo, Component } from 'react';
 import { Col, Row, Navbar,Nav,NavDropdown,Container, Form,Button,FormControl } from 'react-bootstrap';
 import { ArchiveFill, MicFill, CameraVideo, Inboxes, Bell, PersonCircle } from 'react-bootstrap-icons';
 
+import axios from 'axios';
 
 const Mynavbar = memo(()=>{
   const inputRef = React.createRef();
@@ -12,6 +13,19 @@ const Mynavbar = memo(()=>{
     const searchWord = inputRef.current.value;
     console.log(searchWord);
 
+    const url = `https://www.googleapis.com/youtube/v3/search?key=${process.env.REACT_APP_YOUTUBE_API_KEY}&part=snippet&maxResults=25&q=${searchWord}`
+    console.log(url);
+    axios({
+      method:'get',
+      url : url,
+    })
+    .then((res)=>{
+      console.log(res);
+    })
+    .catch((err)=>{
+      console.log(err);
+    })
+    
     inputRef.current.value = '';
   } 
   
