@@ -1,37 +1,55 @@
-import React, { Component } from 'react';
-import { Navbar,Nav,NavDropdown,Container, Form,Button,FormControl } from 'react-bootstrap';
+import React, { memo, Component } from 'react';
+import { Col, Row, Navbar,Nav,NavDropdown,Container, Form,Button,FormControl } from 'react-bootstrap';
 import { ArchiveFill, MicFill, CameraVideo, Inboxes, Bell, PersonCircle } from 'react-bootstrap-icons';
 
 
-class Mynavbar extends Component {
-  render() {
-    return (
-      <>
+const Mynavbar = memo(()=>{
+  const inputRef = React.createRef();
 
-        <Navbar bg="dark" variant="dark">
-          <Container>
-          <Navbar.Brand href="#home"><ArchiveFill /> ITube</Navbar.Brand>
-
-          <Form>
-            <Form.Group className="mb-3" controlId="formBasicEmail">
-              <Form.Control type="text" placeholder="검색" />
-            </Form.Group>
-          </Form>
-
-          <Nav className="me-auto">
-            <Nav.Link href="#"><MicFill /></Nav.Link>
-            <Nav.Link href="#"><CameraVideo/></Nav.Link>
-            <Nav.Link href="#"><Inboxes /></Nav.Link>
-            <Nav.Link href="#"><Bell /></Nav.Link>
-            <Nav.Link href="#"><PersonCircle color='pink' /></Nav.Link>
+  const getData = (event)=>{
+    event.preventDefault();
     
-          </Nav>
-          </Container>
-        </Navbar>
-      </>
-    );
-  }
-}
+    const searchWord = inputRef.current.value;
+    console.log(searchWord);
+
+    inputRef.current.value = '';
+  } 
+  
+  return (
+    <>
+
+      <Navbar bg="dark" variant="dark">
+        <Container>
+        <Navbar.Brand href="#home"><ArchiveFill /> ITube</Navbar.Brand>
+
+
+        <Nav className="me-auto">
+          <Nav.Link href="#"><MicFill /></Nav.Link>
+          <Nav.Link href="#"><CameraVideo/></Nav.Link>
+          <Nav.Link href="#"><Inboxes /></Nav.Link>
+          <Nav.Link href="#"><Bell /></Nav.Link>
+          <Nav.Link href="#"><PersonCircle color='pink' /></Nav.Link>
+  
+        </Nav>
+        </Container>
+      </Navbar>
+
+        <Form>
+
+          <Form.Group className="mb-3" controlId="formSearchData">
+            <Form.Control ref = {inputRef} type="text" placeholder="검색" />
+            <Button variant="secondary" onClick={getData}>
+              검색
+            </Button>
+            
+          </Form.Group>
+
+        </Form>
+    </>
+    )
+
+  });
+
 
 export default Mynavbar;
 
