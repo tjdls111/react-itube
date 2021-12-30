@@ -25,29 +25,29 @@ const Mynavbar = memo((props)=>{
         <Container>
         <Navbar.Brand href="#home"><ArchiveFill color='red'/> ITube</Navbar.Brand>
 
-
-        <Nav className="me-auto">
-          <Nav.Link href="#"><MicFill /></Nav.Link>
-          <Nav.Link href="#"><CameraVideo/></Nav.Link>
-          <Nav.Link href="#"><Inboxes /></Nav.Link>
-          <Nav.Link href="#"><Bell /></Nav.Link>
-          <Nav.Link href="#"><PersonCircle color='pink' /></Nav.Link>
-  
-        </Nav>
-        </Container>
-      </Navbar>
-
         <Form>
 
-          <Form.Group className="mb-3" controlId="formSearchData">
-            <Form.Control ref = {inputRef} type="search" placeholder="검색" />
+          <Form.Group className={styles.search} controlId="formSearchData">
+            <Form.Control className={styles.input} ref = {inputRef} type="search" placeholder="검색" />
             <button className={styles.searchBtn}onClick={getData}>
-              <Search/> 검색
+              <Search/>
             </button>
             
           </Form.Group>
 
         </Form>
+
+        <Nav className="me-auto">
+          <Nav.Link className={styles.icons} href="#"><MicFill /></Nav.Link>
+          <Nav.Link className={styles.icons} href="#"><CameraVideo/></Nav.Link>
+          <Nav.Link className={styles.icons} href="#"><Inboxes /></Nav.Link>
+          <Nav.Link className={styles.icons} href="#"><Bell /></Nav.Link>
+          <Nav.Link className={styles.icons} href="#"><PersonCircle color='pink' /></Nav.Link>
+  
+        </Nav>
+
+        </Container>
+      </Navbar>
     </>
     )
 
