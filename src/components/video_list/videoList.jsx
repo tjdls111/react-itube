@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
-import Video from '../video'
 import VideoItem from '../video_item/video_item';
 import { Col, Row, Navbar,Nav,NavDropdown,Container, Form,Button,FormControl, Card } from 'react-bootstrap';
 
 
-const VideoList = (props) => (
+const VideoList = ({results, onVideoClick, display}) => (
+  
   <Row>
-  { props.results.map(video => (
+  { results.map(video => (
     <VideoItem
       key = {video.id}
       video = {video}
+      onVideoClick={onVideoClick}
+      display = {display}
     />
 
   ))}
