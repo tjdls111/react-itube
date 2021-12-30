@@ -6,16 +6,16 @@ import { ArchiveFill, MicFill, CameraVideo, Inboxes, Bell, PersonCircle } from '
 const Mynavbar = memo(()=>{
   const inputRef = React.createRef();
 
-  // const getData = (event)=>{
-  //   event.preventDefault();
+  const getData = (event)=>{
+    event.preventDefault();
     
-  //   const searchWord = inputRef.current.value;
-  //   console.log(searchWord);
+    const searchWord = inputRef.current.value;
+    // console.log(searchWord);
     
-  //   inputRef.current.value = '';
-  //   this.props.handleData(searchWord);
+    inputRef.current.value = '';
+    this.props.searchData(searchWord);
 
-  // }
+  }
   
   return (
     <>
@@ -40,8 +40,8 @@ const Mynavbar = memo(()=>{
 
           <Form.Group className="mb-3" controlId="formSearchData">
             <Form.Control ref = {inputRef} type="text" placeholder="검색" />
-            <Button variant="secondary">
-            {/* <Button variant="secondary" onClick={getData}> */}
+            {/* <Button variant="secondary"> */}
+            <Button variant="secondary" onClick={getData}>
               검색
             </Button>
             

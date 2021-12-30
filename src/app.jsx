@@ -89,9 +89,31 @@ function App(){
   }, []); // 마운트되었을 때만 호출되게 할 것.
 
 
+  const searchData = (searchWord)=>{
+    
+    const url = `https://www.googleapis.com/youtube/v3/search?key=${process.env.REACT_APP_YOUTUBE_API_KEY}&part=snippet&maxResults=25&q=${searchWord}`
+    console.log(url);
+    axios({
+      method:'get',
+      url : url,
+    })
+    .then((res)=>{
+      const results = res.data.items;
+      this.setVideos(results);
+    
+
+    })
+    .catch((err)=>{
+      console.log(err);
+    })
+    
+    
+  } 
+
+
   return (
     <>
-      <Mynavbar></Mynavbar>
+      <Mynavbar searchData ={searchData}></Mynavbar>
       <VideoList results={videos}/>
     </>
   )
