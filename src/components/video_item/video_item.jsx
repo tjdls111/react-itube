@@ -4,9 +4,9 @@ import { Col, Row, Navbar,Nav,NavDropdown,Container, Form,Button,FormControl, Ca
 
 const VideoItem = ({video, video:{snippet}, onVideoClick, display}) => {
 
-  if (display == 'list'){
+  if (display == 'grid'){
     return (
-      <Col xs md="6" xl="4" xxl="3" onClick={()=> onVideoClick(video)}>
+      <Col className={styles.grid} xs md="6" xl="4" xxl="3" onClick={()=> onVideoClick(video)}>
         <Card className = {styles.video}>
           <Card.Img  variant="top" src={snippet.thumbnails.high.url} />
           <Card.Body className={styles.video_meta}>
@@ -21,7 +21,7 @@ const VideoItem = ({video, video:{snippet}, onVideoClick, display}) => {
     }
   else{
     return (
-      <Col xxl="12" onClick={()=> onVideoClick(video)}>
+      <Col className ={styles.list} onClick={()=> onVideoClick(video)}>
         <Card className = {styles.video}>
           <Card.Img  variant="top" src={snippet.thumbnails.high.url} />
           <Card.Body className={styles.video_meta}>

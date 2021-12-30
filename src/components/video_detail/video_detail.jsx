@@ -10,17 +10,17 @@ const VideoDetail = ({video}) => (
     <iframe 
       id="player" 
       type="text/html" 
-      width="640" 
-      height="360" 
-      videoId={video.id.videoId}
-      src="http://www.youtube.com/embed/{video.id.videoId}?enablejsapi=1"
-      
-      frameborder="0">
+      width="100%" 
+      height="500px" 
+      src={`http://www.youtube.com/embed/${video.id}`}
+      frameborder="0"
+      allowFullScreen
+      >
 
       </iframe>
-    <h1>{video.snippet.title}</h1>
-    <p>{video.snippet.channelTitle}</p>
-
+      <h1>{video.snippet.title}</h1>
+      <h3>{video.snippet.channelTitle}</h3>
+      <pre className={styles.description}>{video.snippet.description}</pre>
 
   </div>
 
