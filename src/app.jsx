@@ -1,7 +1,7 @@
 import React, {Component, useEffect, useState} from 'react';
 import './app.css';
 import Mynavbar from './components/navbar'
-import VideoList  from './components/videoList';
+import VideoList  from './components/video_list/videoList';
 
 import axios from 'axios';
 import { Navbar } from 'react-bootstrap';
@@ -89,10 +89,12 @@ function App(){
   }, []); // 마운트되었을 때만 호출되게 할 것.
 
 
-  return <>
-    <Mynavbar></Mynavbar>
-  
-  </>
+  return (
+    <>
+      <Mynavbar></Mynavbar>
+      <VideoList results={videos}/>
+    </>
+  )
 
 }
 
