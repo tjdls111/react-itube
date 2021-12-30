@@ -17,6 +17,12 @@ const Mynavbar = memo((props)=>{
     props.searchData(searchWord);
 
   }
+
+  // const onKeyPress = (event)=>{
+  //   if(event.key==='Enter'){
+  //     this.getData(event)
+  //   }
+  // }
   
   return (
     <>
@@ -28,8 +34,8 @@ const Mynavbar = memo((props)=>{
         <Form>
 
           <Form.Group className={styles.search} controlId="formSearchData">
-            <Form.Control className={styles.input} ref = {inputRef} type="search" placeholder="검색" />
-            <button className={styles.searchBtn}onClick={getData}>
+            <Form.Control className={styles.input} ref = {inputRef} type="search" placeholder="검색"/>
+            <button className={styles.searchBtn} onClick={getData}>
               <Search/>
             </button>
             

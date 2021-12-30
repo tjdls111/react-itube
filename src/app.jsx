@@ -6,70 +6,6 @@ import axios from 'axios';
 
 import styles from './app.module.css';
 
-// class App extends Component {
-//   state = {
-//     results : undefined
-//   }
-
-//   getPopular = ()=>{
-//     const url = `https://www.googleapis.com/youtube/v3/videos?key=${process.env.REACT_APP_YOUTUBE_API_KEY}&videos?part=snippet&chart=mostPopular&maxResults=25`
-//     console.log(url);
-//     axios({
-//       method:'get',
-//       url : url,
-//     })
-//     .then((res)=>{
-//         const results = res.data.items;
-//         this.setState({results});
-
-//     })
-//     .catch((err)=>{
-//       console.log(err);
-//     })
-    
-
-//   }
-
-//   searchData = (searchWord)=>{
-    
-//     const url = `https://www.googleapis.com/youtube/v3/search?key=${process.env.REACT_APP_YOUTUBE_API_KEY}&part=snippet&maxResults=25&q=${searchWord}`
-//     console.log(url);
-//     axios({
-//       method:'get',
-//       url : url,
-//     })
-//     .then((res)=>{
-//       const results = res.data.items;
-//       this.setState({results});
-    
-
-//     })
-//     .catch((err)=>{
-//       console.log(err);
-//     })
-    
-    
-//   } 
-
-//   render(){
-//     this.getPopular()
-
-//     return (
-//       <>
-//         <Mynavbar
-//           handleData = {this.searchData}
-        
-//         ></Mynavbar>
-        
-//         <VideoList
-//           results = {this.state.results}
-//         ></VideoList>
-      
-//       </>
-//       )
-//   }
-
-// }
 
 function App(){
   const [videos, setVideos] = useState([]); // state
@@ -91,14 +27,19 @@ function App(){
 
   const searchData = (searchWord)=>{
     
-    const url = `https://www.googleapis.com/youtube/v3/search?key=${process.env.REACT_APP_YOUTUBE_API_KEY}&part=snippet&maxResults=25&q=${searchWord}`
+    const url = `https://www.googleapis.com/youtube/v3/search?key=${process.env.REACT_APP_YOUTUBE_API_KEY}&part=snippet&maxResults=25&q=${searchWord}&type=video`
     console.log(url);
     axios({
       method:'get',
       url : url,
     })
     .then((res)=>{
-      const results = res.data.items;
+      let results = res.data.items;
+      results = results.map(item=>({
+        ...item, 
+        id:item.id.videoId
+      })
+      )
       setVideos(results);
     
 
