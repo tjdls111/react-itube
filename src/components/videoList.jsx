@@ -10,7 +10,7 @@ class VideoList extends Component {
         return (
           <ul>
           { this.props.results.map(res => (
-            <Video key={res.id.videoId}
+            <Video key={res.id}
               video = {res}
             />
 

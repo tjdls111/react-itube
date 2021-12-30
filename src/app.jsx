@@ -7,8 +7,26 @@ import axios from 'axios';
 
 class App extends Component {
   state = {
-
     results : undefined
+  }
+
+  getPopular = ()=>{
+    const url = `https://www.googleapis.com/youtube/v3/videos?key=${process.env.REACT_APP_YOUTUBE_API_KEY}&videos?part=snippet&chart=mostPopular&maxResults=25`
+    console.log(url);
+    axios({
+      method:'get',
+      url : url,
+    })
+    .then((res)=>{
+        const results = res.data.items;
+        this.setState({results});
+
+    })
+    .catch((err)=>{
+      console.log(err);
+    })
+    
+
   }
 
   searchData = (searchWord)=>{
@@ -20,7 +38,9 @@ class App extends Component {
       url : url,
     })
     .then((res)=>{
-        this.results = res.data.items;
+      const results = res.data.items;
+      this.setState({results});
+    
 
     })
     .catch((err)=>{
@@ -31,6 +51,7 @@ class App extends Component {
   } 
 
   render(){
+    this.getPopular()
 
     return (
       <>
