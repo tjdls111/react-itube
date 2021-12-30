@@ -22,7 +22,7 @@ const Mynavbar = memo(()=>{
 
       <Navbar bg="dark" variant="dark">
         <Container>
-        <Navbar.Brand href="#home"><ArchiveFill /> ITube</Navbar.Brand>
+        <Navbar.Brand href="#home"><ArchiveFill color='red'/> ITube</Navbar.Brand>
 
 
         <Nav className="me-auto">

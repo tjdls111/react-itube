@@ -4,15 +4,12 @@ import { Col, Row, Navbar,Nav,NavDropdown,Container, Form,Button,FormControl, Ca
 
 const VideoItem = ({video:{snippet}}) => (
       <Col xs xl="3" xxl="2">
-        <Card className = {styles.video} style={{ width: '18rem' }}>
+        <Card className = {styles.video}>
 
           <Card.Img  variant="top" src={snippet.thumbnails.default.url} />
-          <Card.Body>
+          <Card.Body className={styles.video_meta}>
             <Card.Title>{snippet.title}</Card.Title>
-            <strong>{snippet.channelTitle}</strong>
-            <Card.Text className={styles.description}>
-              {snippet.description}
-            </Card.Text>
+            <Card.Text className={styles.channel_name}>{snippet.channelTitle}</Card.Text>
           </Card.Body>
         </Card>
             
