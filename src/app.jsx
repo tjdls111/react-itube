@@ -1,6 +1,6 @@
 import React, {Component, useEffect, useState} from 'react';
 import './app.css';
-import Mynavbar from './components/navbar'
+import Mynavbar from './components/navbar/navbar'
 import VideoList  from './components/video_list/videoList';
 
 import axios from 'axios';
@@ -99,7 +99,7 @@ function App(){
     })
     .then((res)=>{
       const results = res.data.items;
-      this.setVideos(results);
+      setVideos(results);
     
 
     })

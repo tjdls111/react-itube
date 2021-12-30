@@ -2,8 +2,9 @@ import React, { memo, Component } from 'react';
 import { Col, Row, Navbar,Nav,NavDropdown,Container, Form,Button,FormControl } from 'react-bootstrap';
 import { ArchiveFill, MicFill, CameraVideo, Inboxes, Bell, PersonCircle } from 'react-bootstrap-icons';
 
+import styles from './navbar.module.css'
 
-const Mynavbar = memo(()=>{
+const Mynavbar = memo((props)=>{
   const inputRef = React.createRef();
 
   const getData = (event)=>{
@@ -13,7 +14,7 @@ const Mynavbar = memo(()=>{
     // console.log(searchWord);
     
     inputRef.current.value = '';
-    this.props.searchData(searchWord);
+    props.searchData(searchWord);
 
   }
   
