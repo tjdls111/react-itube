@@ -1,10 +1,10 @@
 import React, {Component, useEffect, useState} from 'react';
-import './app.css';
 import Mynavbar from './components/navbar/navbar'
 import VideoList  from './components/video_list/videoList';
 
 import axios from 'axios';
-import { Navbar } from 'react-bootstrap';
+
+import styles from './app.module.css';
 
 // class App extends Component {
 //   state = {

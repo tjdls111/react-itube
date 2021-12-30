@@ -1,6 +1,6 @@
 import React, { memo, Component } from 'react';
 import { Col, Row, Navbar,Nav,NavDropdown,Container, Form,Button,FormControl } from 'react-bootstrap';
-import { ArchiveFill, MicFill, CameraVideo, Inboxes, Bell, PersonCircle } from 'react-bootstrap-icons';
+import { ArchiveFill, MicFill, Search, CameraVideo, Inboxes, Bell, PersonCircle } from 'react-bootstrap-icons';
 
 import styles from './navbar.module.css'
 
@@ -40,11 +40,10 @@ const Mynavbar = memo((props)=>{
         <Form>
 
           <Form.Group className="mb-3" controlId="formSearchData">
-            <Form.Control ref = {inputRef} type="text" placeholder="검색" />
-            {/* <Button variant="secondary"> */}
-            <Button variant="secondary" onClick={getData}>
-              검색
-            </Button>
+            <Form.Control ref = {inputRef} type="search" placeholder="검색" />
+            <button className={styles.searchBtn}onClick={getData}>
+              <Search/> 검색
+            </button>
             
           </Form.Group>
 

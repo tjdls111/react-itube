@@ -22,5 +22,8 @@ code {
 *{
   background-color: RGB(33, 36, 41);
   box-sizing: border-box;
-  
+}
+
+#root{
+  justify-content: center; 
 }
