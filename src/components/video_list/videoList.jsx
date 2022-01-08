@@ -5,17 +5,19 @@ import { Col, Row, Navbar,Nav,NavDropdown,Container, Form,Button,FormControl, Ca
 
 const VideoList = ({results, onVideoClick, display}) => (
   
-  <Row>
-  { results.map(video => (
-    <VideoItem
-      key = {video.id}
-      video = {video}
-      onVideoClick={onVideoClick}
-      display = {display}
-    />
-
-  ))}
-  </Row>
+  (
+    <Row>
+    { results.map(video => (
+      <VideoItem
+        key = {video.id}
+        video = {video}
+        onVideoClick={onVideoClick}
+        display = {display}
+      />
+  
+    ))}
+    </Row>
+    )
   );
 
 export default VideoList;

@@ -10,10 +10,11 @@ const VideoDetail = ({video}) => (
     <iframe 
       id="player" 
       type="text/html" 
+      title="youtube video player"
       width="100%" 
       height="500px" 
       src={`http://www.youtube.com/embed/${video.id}`}
-      frameborder="0"
+      frameBorder="0"
       allowFullScreen
       >
 

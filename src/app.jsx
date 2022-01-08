@@ -1,4 +1,4 @@
-import React, {Component, useEffect, useState} from 'react';
+import React, {Component, useEffect, useState, useCallback} from 'react';
 import Mynavbar from './components/navbar/navbar'
 import VideoList  from './components/video_list/videoList';
 
@@ -19,17 +19,17 @@ function App({youtube}){
       setVideos(res);
     })
 
-  }, []); // 마운트되었을 때만 호출되게 할 것.
+  }, [youtube]); 
 
 
-  const searchData = (searchWord)=>{
+  const searchData = useCallback((searchWord)=>{
     youtube
     .search(searchWord)
-    .then((res)=>{
+    .then((videos)=>{
       setSelectedVideo(null);
-      setVideos(res);
-    });
-  } 
+      setVideos(videos);
+    })
+  }, []);
 
   const selectVideo = (video)=>{
     setSelectedVideo(video); 
