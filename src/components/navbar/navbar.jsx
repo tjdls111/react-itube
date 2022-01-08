@@ -16,6 +16,7 @@ const Mynavbar = memo((props)=>{
     inputRef.current.value = '';
     props.searchData(searchWord);
 
+
   }
 
   // const onKeyPress = (event)=>{

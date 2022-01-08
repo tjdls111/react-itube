@@ -26,6 +26,7 @@ function App({youtube}){
     youtube
     .search(searchWord)
     .then((res)=>{
+      setSelectedVideo(null);
       setVideos(res);
     });
   } 

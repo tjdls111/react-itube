@@ -3,7 +3,7 @@
   cursor:pointer;
   transition: transform 250ms ease-in;
   width:30rem;
-  margin:0.5rem;
+  margin:1rem 0 0 2.5rem;
 }
 
 .video:hover{
