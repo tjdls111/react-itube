@@ -1,5 +1,5 @@
 import axios from 'axios';
-
+import SEARCHRESULT from '../data/searchResultVideos.json'
 class Youtube{
   constructor(){
     this.key = process.env.REACT_APP_YOUTUBE_API_KEY;
@@ -40,20 +40,31 @@ class Youtube{
 
   async search(searchWord){
     const url = `https://www.googleapis.com/youtube/v3/search?key=${process.env.REACT_APP_YOUTUBE_API_KEY}&part=snippet&maxResults=25&q=${searchWord}&type=video`
-    // console.log(url);
+
+
     try {
       const res = await axios({
         method: 'get',
         url: url,
       });
+      let temp_res = []
+      if (res) {
+        temp_res = res.data.items
+      }
+      else{
+        temp_res= SEARCHRESULT.items
+      }
 
-      const results = res.data.items.map(item => ({
-        ...item,
-        id: item.id.videoId
-      })
-      );
-      return results;
-    
+      // 개발 시 mock data
+      temp_res= SEARCHRESULT.items 
+
+
+    const results = temp_res.map(item => ({
+      ...item,
+      id: item.id.videoId
+    })
+    );
+    return results;
     } 
     catch (err) {
       console.log(err);

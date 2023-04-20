@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "I4zrrQmXSKL4pE2m8OkXrrmCEWM",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 1000000,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "KPK1OHAL0uTAlBUwgZtBfZykxZ0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "AUAZP6K-a1c"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-19T14:59:55Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "SEVENTEEN (세븐틴) 10th Mini Album &#39;FML&#39; Highlight Medley",
+        "description": "SEVENTEEN (세븐틴) 10th Mini Album 'FML' Highlight Medley ☁️ 2023.04.24 6PM (KST) ☁️ 2023.04.24 5AM (ET) ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/AUAZP6K-a1c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/AUAZP6K-a1c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/AUAZP6K-a1c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-19T14:59:55Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "twYBHgA56TKa9ZBOC9RusSegVTs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "bA7XCoBsIDs"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-19T11:58:10Z",
+        "channelId": "UCfkXDY7vwkcJ8ddFGz8KusA",
+        "title": "[GOING SEVENTEEN] EP.72 법정 : 모든 걸 꿰뚫어 보는 눈 #1 (Court : Eyes That See The Truth #1)",
+        "description": "[GOING SEVENTEEN] EP.72 법정 : 모든 걸 꿰뚫어 보는 눈 #1 (Court : Eyes That See The Truth #1) 드디어 열린 법정즈의 재판!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bA7XCoBsIDs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bA7XCoBsIDs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bA7XCoBsIDs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SEVENTEEN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-19T11:58:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ajZOS7iCNNxPELEu79uOPFgm5bQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "q0bYVoLJ5UA"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-05T11:58:07Z",
+        "channelId": "UCfkXDY7vwkcJ8ddFGz8KusA",
+        "title": "[GOING SEVENTEEN] EP.70 돈&#39;t Lie : The CHASER #1 (Don’t Lie : The CHASER #1)",
+        "description": "[GOING SEVENTEEN] EP.70 돈't Lie : The CHASER #1 (Don't Lie : The CHASER #1) “오늘의 모든 게 개인전이지“ 드디어 시작된 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/q0bYVoLJ5UA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/q0bYVoLJ5UA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/q0bYVoLJ5UA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SEVENTEEN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-05T11:58:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qPrqr4GnaQ__fJiEv3vFb0nqtoY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "aNJwPoN2S9Y"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-12T11:58:07Z",
+        "channelId": "UCfkXDY7vwkcJ8ddFGz8KusA",
+        "title": "[GOING SEVENTEEN] EP.71 돈&#39;t Lie : The CHASER #2 (Don’t Lie : The CHASER #2)",
+        "description": "[GOING SEVENTEEN] EP.71 돈't Lie : The CHASER #2 (Don't Lie : The CHASER #2) 마피아 조직의 분열, 돈라이 사상 초유의 사태 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/aNJwPoN2S9Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/aNJwPoN2S9Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/aNJwPoN2S9Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SEVENTEEN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-12T11:58:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fgnolBpB-c4YNY5NXkafV8TxDJc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gRnuFC4Ualw"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-27T03:58:12Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "SEVENTEEN (세븐틴) &#39;HOT&#39; Official MV",
+        "description": "SEVENTEEN (세븐틴) 'HOT' Official MV Credits: PRODUCTION｜RIGEND FILM DIRECTOR｜RIMA YOON, DONGJU JANG ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gRnuFC4Ualw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gRnuFC4Ualw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gRnuFC4Ualw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-27T03:58:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "BmRIMlrFvOsVLgEpYq_eLtfEng0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "LulzKgwYWKc"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-13T14:59:56Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "SEVENTEEN (세븐틴) F*ck My Life : Life in a minute",
+        "description": "SEVENTEEN (세븐틴) 10th Mini Album 'FML' F*ck My Life : Life in a minute ☁️ 2023.04.24 6PM (KST) ☁️ 2023.04.24 5AM ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LulzKgwYWKc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LulzKgwYWKc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LulzKgwYWKc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-13T14:59:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "KdgEihkE9R92-QUpibw7Q2Szgw0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "n9ta1Pgeu80"
+      },
+      "snippet": {
+        "publishedAt": "2021-10-26T09:00:57Z",
+        "channelId": "UCfkXDY7vwkcJ8ddFGz8KusA",
+        "title": "SEVENTEEN(세븐틴) - 소용돌이 (To you) @Comeback Show &#39;Attacca&#39;",
+        "description": "SEVENTEEN(세븐틴) - 소용돌이 (To you) @Comeback Show 'Attacca' #세븐틴 #SEVENTEEN #Attacca #소용돌이 #Toyou ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/n9ta1Pgeu80/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/n9ta1Pgeu80/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/n9ta1Pgeu80/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SEVENTEEN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-10-26T09:00:57Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8ZLBuARua1_jeXucF8TFBtU4gmo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8ca0xEJH9wY"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-31T10:00:09Z",
+        "channelId": "UCtCiO5t2voB14CmZKTkIzPQ",
+        "title": "세븐틴(SEVENTEEN)의 킬링보이스를 라이브로! - 박수, 예쁘다, 울고 싶지 않아, A-TEEN, HOT, 아낀다, 어쩌나, Left &amp; Right | 딩고뮤직",
+        "description": "디.아이.엔.지.오 X 세븐틴 콜라보레이션 13명 완전체의 HOT한 킬링보이스 그냥 가보자는 거야   [선곡리스트] 00:00 오프닝 00:31 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8ca0xEJH9wY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8ca0xEJH9wY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8ca0xEJH9wY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "딩고 뮤직 / dingo music",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-31T10:00:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6Dpr7V97pN3fCUEw5VZQxvyCgTQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "zEkg4GBQumc"
+      },
+      "snippet": {
+        "publishedAt": "2017-05-22T09:00:06Z",
+        "channelId": "UCfkXDY7vwkcJ8ddFGz8KusA",
+        "title": "[M/V] SEVENTEEN(세븐틴) - 울고 싶지 않아 (Don&#39;t Wanna Cry)",
+        "description": "소년의 성장의 또 다른 단계를 담은 세븐틴의 4th Mini Album 'Al1'의 타이틀곡 '울고 싶지 않아'는 소년이 살면서 처음으로 느낀 깊은 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zEkg4GBQumc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zEkg4GBQumc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zEkg4GBQumc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SEVENTEEN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-05-22T09:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0eoQCOXYjPgZ9dmX4NMp8TsvjvA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mBXBOLG06Wc"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-06T08:58:10Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "부석순 (SEVENTEEN) &#39;파이팅 해야지 (Feat. 이영지)&#39; Official MV",
+        "description": "부석순 (SEVENTEEN) '파이팅 해야지 (Feat. 이영지)' Official MV #부석순 #BSS #SECONDWIND #파이팅해야지 #BSS_Fighting ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mBXBOLG06Wc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mBXBOLG06Wc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mBXBOLG06Wc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-06T08:58:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qlhs81Rk7v48neV3mszlZ90dE4I",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "WpuatuzSDK4"
+      },
+      "snippet": {
+        "publishedAt": "2021-10-22T03:58:09Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "SEVENTEEN (세븐틴) &#39;Rock with you&#39; Official MV",
+        "description": "SEVENTEEN (세븐틴) 'Rock with you' Official MV Credits: PRODUCTION｜RIGEND FILM DIRECTOR｜RIMA YOON, DONGJU ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WpuatuzSDK4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WpuatuzSDK4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WpuatuzSDK4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-10-22T03:58:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "tC8h4lROUXXHKydhuhnXXe-Vhjg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "VCDWg0ljbFQ"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-18T08:58:10Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "SEVENTEEN (세븐틴) &#39;_WORLD&#39; Official MV",
+        "description": "SEVENTEEN (세븐틴) '_WORLD' Official MV Credits: Production｜OUI PRODUCTION Director｜Oui Kim Producer｜Yeonjin Kim ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VCDWg0ljbFQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VCDWg0ljbFQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VCDWg0ljbFQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-18T08:58:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "AvEEAbL0vL1q5nrrNlIPcst6clg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5cI7kmnj4MI"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-19T19:32:31Z",
+        "channelId": "UC1iF_xAR8BpeGXXdPt14rxQ",
+        "title": "SEVENTEEN (세븐틴) 10th Mini Album &#39;FML&#39; Highlight Medley Reaction!",
+        "description": "Join my Patreon to see 200+ EXCLUSIVE Videos, You WON'T Regret It!: patreon.com/sebastine Catch me on stream on Friday ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5cI7kmnj4MI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5cI7kmnj4MI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5cI7kmnj4MI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Sebastine",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-19T19:32:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "QRwPSt4JjaoGMfnBc6-vqWrgBJg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "6H8QHeC_VPs"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-08T14:58:09Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "SEVENTEEN (세븐틴) &#39;DREAM&#39; Official MV",
+        "description": "SEVENTEEN (세븐틴) 'DREAM' Official MV Credits: PRODUCTION COMPANY : FLIPEVIL DIRECTOR : Donghyeok Seo ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6H8QHeC_VPs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6H8QHeC_VPs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6H8QHeC_VPs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-08T14:58:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "NHdWJSWMOE0vLu32X8YUNUzNmX8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "IBE-H9TSBk0"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-11T12:59:54Z",
+        "channelId": "UCfkXDY7vwkcJ8ddFGz8KusA",
+        "title": "[SVT Record] 밍구네 가족여행 | 제주도 해질녘 드라이브 | 흐름 안 끊기게 잘 먹는 말티쥬 #19",
+        "description": "[SVT Record] 밍구네 가족여행 | 제주도 해질녘 드라이브 | 흐름 안 끊기게 잘 먹는 말티쥬 #19 #SEVENTEEN #세븐틴 #SVTRecord ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IBE-H9TSBk0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IBE-H9TSBk0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IBE-H9TSBk0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SEVENTEEN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-11T12:59:54Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "OsvEVPPy0iPWMpmMME59WhXlkv8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "in87oOJGvAE"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-29T11:58:08Z",
+        "channelId": "UCfkXDY7vwkcJ8ddFGz8KusA",
+        "title": "[GOING SEVENTEEN] EP.69 돈’t Lie : CLUE #2 (Don’t Lie : CLUE #2)",
+        "description": "[GOING SEVENTEEN] EP.69 돈't Lie : CLUE #2 (Don't Lie : CLUE #2) 좁혀지는 수사망에 윤곽이 드러나기 시작한 마피아들🕴️ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/in87oOJGvAE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/in87oOJGvAE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/in87oOJGvAE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SEVENTEEN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-29T11:58:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9264VRH9z6KpK2-D14DlFerMIeU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "SK282KBKadk"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-08T11:58:11Z",
+        "channelId": "UCfkXDY7vwkcJ8ddFGz8KusA",
+        "title": "[GOING SEVENTEEN] EP.66 기습 돈&#39;t Lie #1 (Surprise Don&#39;t Lie #1)",
+        "description": "[GOING SEVENTEEN] EP.66 기습 돈't Lie #1 (Surprise Don't Lie #1) 드디어 밝혀진 고잉 컴퍼니 야유회의 실체   새로운 스토리와 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SK282KBKadk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SK282KBKadk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SK282KBKadk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SEVENTEEN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-08T11:58:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "60lQ2YfK9MpfwTs9VTl022Ib3Gs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "SMlhFiZ2-8k"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-07T15:29:56Z",
+        "channelId": "UCfkXDY7vwkcJ8ddFGz8KusA",
+        "title": "[Choreography Video] SEVENTEEN(세븐틴) - DON QUIXOTE",
+        "description": "[Choreography Video] SEVENTEEN(세븐틴) - DON QUIXOTE #SEVENTEEN #세븐틴 #DONQUIXOTE #돈키호테.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SMlhFiZ2-8k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SMlhFiZ2-8k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SMlhFiZ2-8k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SEVENTEEN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-07T15:29:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Wo8iDCIunIglOXhOcuQifpHBhrU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BeDkwcm-nJ4"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-22T11:58:08Z",
+        "channelId": "UCfkXDY7vwkcJ8ddFGz8KusA",
+        "title": "[GOING SEVENTEEN] EP.68 돈’t Lie : CLUE #1 (Don’t Lie : CLUE #1)",
+        "description": "[GOING SEVENTEEN] EP.68 돈't Lie : CLUE #1 (Don't Lie : CLUE #1) 가면무도회에서 벌어진 살인사건. 주어진 단서들을 조합해 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BeDkwcm-nJ4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BeDkwcm-nJ4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BeDkwcm-nJ4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SEVENTEEN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-22T11:58:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qcJuiUZA2oOSMJ7wXG3puSlONNM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "jKVax0uTRVc"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-01T11:58:08Z",
+        "channelId": "UCfkXDY7vwkcJ8ddFGz8KusA",
+        "title": "[GOING SEVENTEEN] EP.65 고잉 컴퍼니 야유회 (GOING COMPANY Outing)",
+        "description": "[GOING SEVENTEEN] EP.65 고잉 컴퍼니 야유회 (GOING COMPANY Outing) 팀장과 차장과 부장과 꽉 찬 양념게장이 함께하는 고잉 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jKVax0uTRVc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jKVax0uTRVc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jKVax0uTRVc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SEVENTEEN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-01T11:58:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZvSTC5D0aHJRmgRlJj4DidIWgi8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Fp5T3lle0dw"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-18T12:59:56Z",
+        "channelId": "UCfkXDY7vwkcJ8ddFGz8KusA",
+        "title": "[SEVENTEEN’s SNAPSHOOT] EP.52 쇼윈도(?) 깐부 (Kkanbu All for Show(?))",
+        "description": "[SEVENTEEN's SNAPSHOOT] EP.52 쇼윈도(?) 깐부 (Kkanbu All for Show(?)) #세븐틴 #SEVENTEEN #SVT_SNAPSHOOT.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Fp5T3lle0dw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Fp5T3lle0dw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Fp5T3lle0dw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SEVENTEEN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-18T12:59:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ntul5M_H6RDS8nISGDB5J4vdKok",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "bTtNV6hgDno"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-15T03:58:12Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "SEVENTEEN (세븐틴) &#39;Darl+ing&#39; Official MV",
+        "description": "SEVENTEEN (세븐틴) 'Darl+ing' Official MV Credits: PRODUCTION｜RIGEND FILM DIRECTOR｜RIMA YOON, DONGJU JANG ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bTtNV6hgDno/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bTtNV6hgDno/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bTtNV6hgDno/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-15T03:58:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "DqTdSo_q7WKtyT-l9K8ThDIulrQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "UIAncbsU1lY"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-10T13:01:22Z",
+        "channelId": "UCfkXDY7vwkcJ8ddFGz8KusA",
+        "title": "SEVENTEEN (세븐틴) - &#39;HOT&#39; @MUSIC STATION",
+        "description": "2022/6/10 MUSIC STATION performance #SEVENTEEN #세븐틴 #FacetheSun #HOT #SVT_HOT SEVENTEEN Japan official site ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UIAncbsU1lY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UIAncbsU1lY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UIAncbsU1lY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SEVENTEEN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-10T13:01:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "A4exzTiKSQrS8QhbY-Yc2mVspKo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "akuvXBGfpxo"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-09T04:00:01Z",
+        "channelId": "UCTQVIXvcHrR9jYoJ6qaBAow",
+        "title": "[릴레이댄스] SEVENTEEN(세븐틴) - HOT (4K)",
+        "description": "[릴레이댄스] 세븐틴 - 핫 [Relay Dance] SEVENTEEN - HOT 보기만 해도 HOT HOT한 세봉이들 릴댄 도착   신기방기 뿡뿡방기한 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/akuvXBGfpxo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/akuvXBGfpxo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/akuvXBGfpxo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "M2",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-09T04:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Jt5_LK1cCHnq7FZ2eGxYvFXnyR4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "utu5SevmUSw"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-11T08:00:07Z",
+        "channelId": "UCB9e3pof1o83aa0kkaoeJGA",
+        "title": "[4K] 부석순(BSS of SEVENTEEN) -“파이팅 해야지” Band LIVE Concert│오직 부석순 세 명이서 꽉 채운 무대💙💗[it’s KPOP LIVE 잇츠라이브]",
+        "description": "잇츠라이브를 찾아온 부석순(BSS)!!   5년 만에 돌아온 세븐틴의 스페셜 유닛, 부석순의 '파이팅 해야지(Fighting)' 무대를 지금 바로 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/utu5SevmUSw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/utu5SevmUSw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/utu5SevmUSw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "it's Live",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-11T08:00:07Z"
+      }
+    }
+  ]
+}
